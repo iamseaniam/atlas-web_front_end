@@ -1,19 +1,20 @@
-body {
-    text-color; 
-}
-
-a {
-    color: #161616;
-}
 
 .visually-hidden {
     display: none; 
 }
 
-.card-category {
-    color-primary;
+body {
+    color: var(--text-color);
+}
+
+a {
+    color: var(--text-color);
 }
 
 .section-tagline {
-    color-primary;
+    color: var(--color-primary);
+}
+
+.card-category {
+    color: var(--color-primary);
 }
