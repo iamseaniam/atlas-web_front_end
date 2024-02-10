@@ -6,3 +6,19 @@
     --color-dark-grey: #353535;
     --text-color: var(--color-black);
 }
+
+body {
+    color: var(--text-color);
+}
+
+a {
+    color: var(--text-color);
+}
+
+.section-tagline {
+    color: var(--color-primary);
+}
+
+.card-category {
+    color: var(--color-primary);
+}
