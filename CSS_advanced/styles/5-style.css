@@ -7,9 +7,9 @@
 }
 
 html {
-    font-size:  62.5%; /* Set base font size to  62.5% of the default browser font size */
+    font-size:  62.5%;
 }
 
 body {
-    font-size: var(--font-size-medium); /* Apply medium font size to the body */
+    font-size: var(--font-size-medium);
 }
