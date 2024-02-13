@@ -1,0 +1,18 @@
+a[href]:not([data-section-theme="dark"]) {
+
+  }
+  
+
+  a[href]:visited:not([data-section-theme="dark"]) {
+    font-style: italic;
+  }
+  
+
+  a[href]:hover:not([data-section-theme="dark"]) {
+    text-decoration: underline;
+  }
+  
+
+  a[href]:active:not([data-section-theme="dark"]) {
+    background-color: var(--color-light-grey);
+  }
