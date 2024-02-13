@@ -1,0 +1,17 @@
+:root {
+    --nav-item-link-hover: var(--color-white);
+  }
+
+  .nav .nav-link::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 20%;
+    background-color: var(--color-white);
+  }
+
+  .nav .nav-link:hover::before {
+    width: 100%;
+  }

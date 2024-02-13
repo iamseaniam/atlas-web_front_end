@@ -1,0 +1,22 @@
+:root {
+    --transition-duration: 0.3s;
+    --transition-cubic-bezier: cubic-bezier(0.17, 0.67, 0, 1.01);
+  }
+
+  .card-work .card-image {
+    transition: transform var(--transition-duration) var(--transition-cubic-bezier);
+  }
+
+  .card-work .card-inner {
+    transition: transform var(--transition-duration) var(--transition-cubic-bezier);
+  }
+
+  .nav .nav-link::before {
+    transition: var(--transition-duration) var(--transition-cubic-bezier);
+  }
+
+  .button {
+    transition: color var(--transition-duration) var(--transition-cubic-bezier),
+                background-color var(--transition-duration) var(--transition-cubic-bezier);
+  }
+  

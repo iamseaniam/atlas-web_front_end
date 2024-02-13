@@ -1,0 +1,16 @@
+.card-services .card-title {
+    margin: 0;
+  }
+  
+  .card-services .card-link {
+    display: block;
+    padding: calc(1.5rem * 2) calc(3rem * 2);
+    background-color: var(--color-light-grey);
+  }
+  
+  .card-services .card-link:hover {
+    color: var(--color-white);
+    background-color: var(--color-primary);
+    text-decoration: none;
+  }
+  
