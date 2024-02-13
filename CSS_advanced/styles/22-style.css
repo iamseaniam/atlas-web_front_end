@@ -1,0 +1,5 @@
+section[data-section-theme="dark"] {
+    color: var(--color-white);
+    background: var(--color-black);
+  }
+  
